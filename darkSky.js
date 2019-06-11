@@ -43,7 +43,9 @@ function fetchDarkSky() {
   sheet.appendRow(values);
   
   if (data.currently.icon == "rain"){
-      MailApp.sendEmail("XXXXX@gmail.com", "DarkSky " + time_now_string + " " + data.currently.icon, JSON.stringify(data.currently));
+      MailApp.sendEmail("XXXXX@gmail.com", 
+                        "DarkSky " + time_now_string + " " + data.currently.icon, 
+                        JSON.stringify(data.currently));
   };
   
 }
