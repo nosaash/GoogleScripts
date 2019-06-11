@@ -7,7 +7,6 @@ function fetchDarkSky() {
   //the exclude is to shorten the total API response. 
   var url = 'https://api.darksky.net/forecast/API_KEY/40.444546,%20-79.958903?exclude=minutely,hourly,daily,alerts,flags';
   
-  
   var response = UrlFetchApp.fetch(url);
   var json = response.getContentText();
   var data = JSON.parse(json);
