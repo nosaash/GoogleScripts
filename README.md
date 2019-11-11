@@ -8,8 +8,9 @@ The purpose of this script is to store historical data from weather services, to
 - Sign up for account from Dark Sky or Open Weather Map. 
 - Get the API Key 
 - Set up time-driven trigger 
+![Alt text](Trigger.png?raw=true "Title")
 
 
-
+# Result  
 ![Alt text](DarkSky.png?raw=true "Title")
 
